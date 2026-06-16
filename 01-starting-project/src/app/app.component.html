@@ -1,0 +1,8 @@
+<app-header/>
+<app-user [UserId]="Users[0].id"[Name]="Users[0].name" [ImageName]="Users[0].avatar" (selectedUserId)="SelectedUserId($event)"/>
+<app-user [UserId]="Users[1].id"[Name]="Users[1].name" [ImageName]="Users[1].avatar" (selectedUserId)="SelectedUserId($event)"/>
+<app-user [UserId]="Users[2].id"[Name]="Users[2].name" [ImageName]="Users[2].avatar" (selectedUserId)="SelectedUserId($event)"/>
+<app-user [UserId]="Users[3].id" [UserId]="Users[4].id" [Name]="Users[3].name" [ImageName]="Users[3].avatar" (selectedUserId)="SelectedUserId($event)"/>
+<app-user [UserId]="Users[4].id" [Name]="Users[4].name" [ImageName]="Users[4].avatar" (selectedUserId)="SelectedUserId($event)"/>
+<app-user [UserId]="Users[5].id" [Name]="Users[5].name" [ImageName]="Users[5].avatar" (selectedUserId)="SelectedUserId($event)"/>
+<app-tasks [UserName]="SelectedUserName"/>
